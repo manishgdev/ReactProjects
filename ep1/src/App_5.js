@@ -1,0 +1,28 @@
+
+import './App.css';
+
+/*
+ Lists & Ternary Operator Exercise
+*/
+
+function App() {
+  
+  const planets = [
+    {name: "Mars", isGasPlanet : false},
+    {name: "Earth", isGasPlanet : false},
+    {name: "Jupiter", isGasPlanet : true},
+    {name: "Venus", isGasPlanet : false},
+    {name: "Neptune", isGasPlanet : true},
+    {name: "Uranus", isGasPlanet : true}
+  ]
+
+  return (
+    <div className="App">
+      {
+        planets.map((planet, key) => planet.isGasPlanet && <h1 key={key}>{planet.name}</h1>)
+      }
+    </div>
+  );
+}
+
+export default App;
