@@ -8,7 +8,7 @@ import {getAuth, GoogleAuthProvider} from 'firebase/auth';
 // Your web app's Firebase configuration
 const firebaseConfig = {
   apiKey: "AIzaSyB1gfXNzg8lZyC-HpkcAAjnEiEvN5sLnbU",
-  authDomain: "react-tut-eab48.firebaseapp.com",
+  authDomain: "react-tutorial-eab48.firebaseapp.com",
   projectId: "react-tutorial-eab48",
   storageBucket: "react-tutorial-eab48.appspot.com",
   messagingSenderId: "514779134682",
