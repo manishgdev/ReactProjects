@@ -1,0 +1,25 @@
+CSS Modules 
+	App.css => App.module.css
+	
+In App.js
+	import "./App.css" => import styles from "./App.modules.css"
+	
+Component CSS Props
+	<div className="App"> => <div className={styles.app} >
+	<h1 className="name"> => <div className={styles.name} >
+	
+
+Component LifeCyle
+	Mounting
+	Updating
+	Unmounting
+
+ep1 -> basics + useState
+tut2 -> todoList App
+
+npm install react-router-dom
+npm install @tanstack/react-query
+
+
+
+npx create-react-app ./typescript-template --template typescript
