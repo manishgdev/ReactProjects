@@ -9,8 +9,8 @@ import {getAuth, GoogleAuthProvider} from 'firebase/auth';
 const firebaseConfig = {
   apiKey: "AIzaSyB1gfXNzg8lZyC-HpkcAAjnEiEvN5sLnbU",
   authDomain: "react-tut-eab48.firebaseapp.com",
-  projectId: "react-tut-eab48",
-  storageBucket: "react-tut-eab48.appspot.com",
+  projectId: "react-tutorial-eab48",
+  storageBucket: "react-tutorial-eab48.appspot.com",
   messagingSenderId: "514779134682",
   appId: "1:514779134682:web:b99c1d2bc66ef76783c3e3"
 };
